@@ -12,6 +12,7 @@ import { Villain } from '../villain';
 })
 export class HeroesComponent implements OnInit {
   heroes = HEROES;
+  /*po odpaleniu, selected hero działa dla heroes i dla villains - tego nie ogarniam */ 
   selectedHero: Hero; 
   
   villains = VILLAINS;
